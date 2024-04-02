@@ -1,12 +1,13 @@
+import React from 'react';
 import './Menu.css'; 
-import Menu from './MenuApi'; 
+import menuData from './MenuApi'; 
 
-const Menu = () => {
+const MenuComponent = () => {
   return (
     <div className="menu-container">
       <h2>Menu</h2>
       <div className="menu-cards">
-        {Menu.map(item => (
+        {menuData.map(item => (
           <div key={item.id} className="menu-card">
             <img src={item.image} alt={item.name} className="menu-img" />
             <div className="menu-details">
@@ -22,4 +23,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MenuComponent;

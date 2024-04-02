@@ -3,7 +3,7 @@
 import "./index.css"
 import Navbar from './componet/Navbar'
 import HeroSlider from "./componet/Heroimage";
-import Menu from "./componet/MenuApi";
+import MenuComponent from './componet/Menu';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
     
       <Navbar/>
       <HeroSlider/>
-       <Menu />
+       <MenuComponent />
 
     </div>
   );

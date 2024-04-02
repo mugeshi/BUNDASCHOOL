@@ -1,7 +1,7 @@
-const Menu = [
+const menuData= [
   {
     id: 1,
-    image: "images/allupakoida.jpg",
+    image: "",
     name: "allu pakoida",
     category: "snacks",
     price: "20₹",
@@ -128,4 +128,4 @@ const Menu = [
   },
 ];
 
-export default Menu;
+export default  menuData;
