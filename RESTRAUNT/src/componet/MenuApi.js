@@ -1,7 +1,7 @@
 const menuData= [
   {
     id: 1,
-    image: "",
+    image: "https://www.funfoodfrolic.com/wp-content/uploads/2021/09/Aloo-Pakora-Blog.jpg",
     name: "allu pakoida",
     category: "snacks",
     price: "20₹",
@@ -11,7 +11,7 @@ const menuData= [
 
   {
     id: 2,
-    image: "images/chola.jpg",
+    image: "https://cholaindiancuisine.com/wp-content/uploads/2021/04/1440x1080-01-02.jpg",
     name: "chola",
     category: "breakfast",
     price: "70₹",
@@ -20,7 +20,7 @@ const menuData= [
   },
   {
     id: 3,
-    image: "images/corn.jpg",
+    image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/crispy-corn.jpg.webp",
     name: "corn",
     category: "snacks",
     price: "20₹",
@@ -29,7 +29,7 @@ const menuData= [
   },
   {
     id: 4,
-    image: "images/maggi.jpg",
+    image: "https://somethingscookingwithalpa.com/wp-content/uploads/2018/09/MaggiPakora_Wb.jpg",
     name: "maggie",
     category: "snacks",
     price: "24₹",
@@ -38,7 +38,7 @@ const menuData= [
   },
   {
     id: 5,
-    image: "images/momo.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe5VL7A4xNXgSCUAwHP8T5aqkMnuhKXTjrpg&s",
     name: "momo",
     category: "snacks",
     price: "80₹",
@@ -47,7 +47,7 @@ const menuData= [
   },
   {
     id: 6,
-    image: "images/nonvegthali.jpg",
+    image: "https://content.jdmagicbox.com/comp/def_content/non-veg-thali-delivery-restaurants/5eefeba336a281d351f2ab8130ea6022-non-veg-thali-delivery-restaurants-1-s29xe.jpg",
     name: "Non-Veg Thali",
     category: "dinner",
     price: "180₹",
@@ -56,7 +56,7 @@ const menuData= [
   },
   {
     id: 7,
-    image: "images/paubhaji.jpg",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.secondrecipe.com%2Fpav-bhaji%2F&psig=AOvVaw21dpWEs5nXiCcjvgOYyYFI&ust=1712181822675000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCw_NLEpIUDFQAAAAAdAAAAABA-",
     name: "pav bhaji",
     category: "dinner",
     price: "60₹",
@@ -65,7 +65,7 @@ const menuData= [
   },
   {
     id: 8,
-    image: "images/pizza.jpg",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Frecipes.net%2Farticles%2Fwhat-makes-the-perfect-pizza%2F&psig=AOvVaw0Muaje602kcyRQrvBi3n7k&ust=1712181957817000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOj0t4XFpIUDFQAAAAAdAAAAABAd",
     name: "Pizza",
     category: "snacks",
     price: "60₹",
@@ -74,7 +74,7 @@ const menuData= [
   },
   {
     id: 9,
-    image: "images/puri.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0fnOICwUUAXZo9xQ-gteFFGL4VZaO6L69_Q&s",
     name: "puri",
     category: "breakfast",
     price: "30₹",
@@ -83,7 +83,7 @@ const menuData= [
   },
   {
     id: 10,
-    image: "images/rajmarice.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6OYPG1M4PUzQS9YCCnaH8lmUUrkB23ist_Ai1yTS4ag&s",
     name: "rajma rice",
     category: "dinner",
     price: "200₹",
@@ -92,7 +92,7 @@ const menuData= [
   },
   {
     id: 11,
-    image: "images/rotiwithmeat.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGPetMYrSzhKpzDq9UzhrDd20KD7m9dGQY9bijutcsw&s",
     name: "Roti With Meat",
     category: "dinner",
     price: "220₹",
@@ -101,7 +101,7 @@ const menuData= [
   },
   {
     id: 12,
-    image: "images/samosa.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn97pNnL2r88h19C292kddjw805U5qfeWAw0V8nd2viQ&s",
     name: "samaso",
     category: "snacks",
     price: "15₹",
@@ -110,8 +110,8 @@ const menuData= [
   },
   {
     id: 13,
-    image: "images/sweet.jpg",
-    name: "sweet",
+    image: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?resize=768,574",
+    name: "Italian food",
     category: "desert",
     price: "150₹",
     description:
@@ -119,7 +119,7 @@ const menuData= [
   },
   {
     id: 14,
-    image: "images/vegthali.jpg",
+    image: "https://eastindianrecipes.net/wp-content/uploads/2022/09/How-to-Make-North-Indian-Thali-Vegetarian-7-500x500.jpg",
     name: "vegthali",
     category: "lunch",
     price: "150₹",

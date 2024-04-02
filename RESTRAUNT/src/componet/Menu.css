@@ -1,0 +1,44 @@
+.menu-container {
+  margin: 20px;
+}
+
+.menu-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.menu-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.menu-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu-details {
+  padding: 20px;
+}
+
+.menu-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-category {
+  font-style: italic;
+  color: #666;
+}
+
+.menu-price {
+  font-weight: bold;
+}
+
+.menu-description {
+  margin-top: 10px;
+  color: #555;
+}
