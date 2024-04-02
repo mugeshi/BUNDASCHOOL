@@ -5,9 +5,9 @@ import images2 from '../assets/images2.jpeg';
 import image5 from '../assets/image5.jpeg';
 
 const slidesData = [
-  { id: 1, image: images1, caption: 'Slide 1 Caption' },
-  { id: 2, image: images2, caption: 'Slide 2 Caption' },
-  { id: 3, image: image5, caption: 'Slide 3 Caption' }
+  { id: 1,  backgroundImage: images1 },
+  { id: 2,  backgroundImage: images2 },
+  { id: 3,  backgroundImage: image5 }
 ];
 
 const HeroSlider = () => {
@@ -24,17 +24,16 @@ const HeroSlider = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       nextSlide();
-    }, 3000); // Adjust the interval time (in milliseconds) as needed
+    }, 3000);
 
-    return () => clearInterval(intervalId); // Cleanup function to clear the interval when the component unmounts
-  }, [currentSlide]); // Include currentSlide in the dependency array to ensure the interval is updated when currentSlide changes
+    return () => clearInterval(intervalId);
+  }, [currentSlide]);
 
   return (
     <div className="hero-slider">
       {slidesData.map((slide, index) => (
-        <div key={slide.id} className={index === currentSlide ? 'slide active' : 'slide'}>
-          <img src={slide.image} alt={`Slide ${slide.id}`} />
-          <div className="caption">{slide.caption}</div>
+        <div key={slide.id} className={index === currentSlide ? 'slide active' : 'slide'} style={{ backgroundImage: `url(${slide.backgroundImage})` }}>
+          
         </div>
       ))}
       <button onClick={prevSlide} className="prev">Prev</button>
