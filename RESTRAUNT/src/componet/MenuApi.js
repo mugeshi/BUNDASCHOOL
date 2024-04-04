@@ -65,7 +65,7 @@ const menuData= [
   },
   {
     id: 8,
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Frecipes.net%2Farticles%2Fwhat-makes-the-perfect-pizza%2F&psig=AOvVaw0Muaje602kcyRQrvBi3n7k&ust=1712181957817000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOj0t4XFpIUDFQAAAAAdAAAAABAd",
+    image: "https://www.allrecipes.com/thmb/0xH8n2D4cC97t7mcC7eT2SDZ0aE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6776_Pizza-Dough_ddmfs_2x1_1725-fdaa76496da045b3bdaadcec6d4c5398.jpg",
     name: "Pizza",
     category: "snacks",
     price: "60₹",
@@ -128,7 +128,7 @@ const menuData= [
   },
 {
     id: 15,
-    image: "https://www.seriouseats.com/thmb/ZqQcvR--hKUEPQdVz7X3YX7iXN4=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__06__20140625-arancini-primary-26-9b9d54e3ac884c09ad2fd5d5b65627e8.jpg",
+    image: "https://api.vip.foodnetwork.ca/wp-content/uploads/2021/01/fnk-air-fryer-arancini_1280x853.jpeg?w=3840&quality=75",
     name: "Arancini",
     category: "snacks",
     price: "100₹",
@@ -137,7 +137,7 @@ const menuData= [
   },
   {
     id: 16,
-    image: "https://www.eatwell101.com/wp-content/uploads/2019/04/Chicken-Tikka-Masala-recipe.jpg",
+    image: "https://thegirlonbloor.com/wp-content/uploads/2019/01/Slow-Cooker-Chicken-Tikka-Masala-11-500x375.jpg",
     name: "Chicken Tikka Masala",
     category: "dinner",
     price: "250₹",
@@ -146,7 +146,7 @@ const menuData= [
   },
   {
     id: 17,
-    image: "https://www.cookingclassy.com/wp-content/uploads/2021/02/valentines-day-charcuterie-board-12-1.jpg",
+    image: "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_344/v1/AKO%20Guides/Charcuterie/SFS_CharcuterieBoard_038",
     name: "Charcuterie Board",
     category: "appetizer",
     price: "180₹",
@@ -155,7 +155,7 @@ const menuData= [
   },
   {
     id: 18,
-    image: "https://www.simplyrecipes.com/thmb/EhH2H6x_-auhHmcYgXSHG1Grnm4=/3756x2817/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2005__08__grilled-shrimp-horiz-a-1600-3-760b7f9a6a20450980d11abcb4528e71.jpg",
+    image: "https://www.cookedbyjulie.com/wp-content/uploads/2022/07/bbq-grilled-shrimp-skewers-one-500x500.jpg",
     name: "Grilled Shrimp Skewers",
     category: "appetizer",
     price: "200₹",
@@ -164,7 +164,7 @@ const menuData= [
   },
   {
     id: 19,
-    image: "https://www.cookingclassy.com/wp-content/uploads/2019/09/homemade-italian-meatball-recipe-14-500x375.jpg",
+    image: "https://natashaskitchen.com/wp-content/uploads/2015/01/spaghetti-and-meatballs-600x900.jpg",
     name: "Spaghetti and Meatballs",
     category: "dinner",
     price: "180₹",
@@ -173,7 +173,7 @@ const menuData= [
   },
   {
     id: 20,
-    image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-halloumi-fries-still005-1612992049.jpg",
+    image: "https://www.deliciousmagazine.co.uk/wp-content/uploads/2020/02/halloumi-firies-1-768x960.jpg",
     name: "Halloumi Fries",
     category: "snacks",
     price: "120₹",
