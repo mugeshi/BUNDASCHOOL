@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './Menu.css'; 
 import menuData from './MenuApi'; 
 
@@ -18,6 +19,7 @@ const MenuComponent = () => {
       {/* Snacks */}
       <div className="category-container">
         <h3>Snacks</h3>
+        <Link to="/snacks">View All Snacks</Link> {/* Link to snacks page */}
         <div className="menu-cards">
           {snacks.map(item => (
             <div key={item.id} className="menu-card">
@@ -35,6 +37,7 @@ const MenuComponent = () => {
       {/* Breakfast */}
       <div className="category-container">
         <h3>Breakfast</h3>
+        <Link to="/breakfast">View All Breakfast</Link> {/* Link to breakfast page */}
         <div className="menu-cards">
           {breakfast.map(item => (
             <div key={item.id} className="menu-card">
@@ -52,6 +55,7 @@ const MenuComponent = () => {
       {/* Dinner */}
       <div className="category-container">
         <h3>Dinner</h3>
+        <Link to="/dinner">View All Dinner</Link> {/* Link to dinner page */}
         <div className="menu-cards">
           {dinner.map(item => (
             <div key={item.id} className="menu-card">
@@ -69,6 +73,7 @@ const MenuComponent = () => {
       {/* Dessert */}
       <div className="category-container">
         <h3>Dessert</h3>
+        <Link to="/dessert">View All Dessert</Link> {/* Link to dessert page */}
         <div className="menu-cards">
           {dessert.map(item => (
             <div key={item.id} className="menu-card">
@@ -86,6 +91,7 @@ const MenuComponent = () => {
       {/* Lunch */}
       <div className="category-container">
         <h3>Lunch</h3>
+        <Link to="/lunch">View All Lunch</Link> {/* Link to lunch page */}
         <div className="menu-cards">
           {lunch.map(item => (
             <div key={item.id} className="menu-card">
@@ -103,6 +109,7 @@ const MenuComponent = () => {
       {/* Appetizer */}
       <div className="category-container">
         <h3>Appetizer</h3>
+        <Link to="/appetizer">View All Appetizer</Link> {/* Link to appetizer page */}
         <div className="menu-cards">
           {appetizer.map(item => (
             <div key={item.id} className="menu-card">
