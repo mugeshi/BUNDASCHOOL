@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './Menu.css'; 
-import menuData from './MenuApi'; 
+import { Link } from 'react-router-dom';
+import './Menu.css';
 
 const MenuComponent = () => {
   const breakfastImageLink = 'https://c.ndtvimg.com/2020-10/bc5nbv6o_breakfast_650x400_01_October_20.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350';
-   const snacksImageLink = 'https://i.pinimg.com/736x/33/08/18/330818b85e23e2281b2013cd2d22134e.jpg';
+  const snacksImageLink = 'https://i.pinimg.com/736x/33/08/18/330818b85e23e2281b2013cd2d22134e.jpg';
+  const dinnerImageLink = 'https://media.timeout.com/images/106001846/750/562/image.jpg';
 
-   return (
+  return (
     <div className="menu-container">
       <h2>Menu</h2>
 
@@ -31,7 +31,6 @@ const MenuComponent = () => {
         <h3>Breakfast</h3>
         <Link to="/breakfast">View All Breakfast</Link>
         <div className="menu-cards">
-          {/* Replace the image link below */}
           <img src={breakfastImageLink} alt="Breakfast" className="menu-img" />
           <p className="menu-description">
             Description for breakfast category.
@@ -45,56 +44,15 @@ const MenuComponent = () => {
       {/* Dinner */}
       <div className="category-container">
         <h3>Dinner</h3>
-        <Link to="/dinner">View All Dinner</Link> {/* Link to dinner page */}
+        <Link to="/dinner">View All Dinner</Link>
         <div className="menu-cards">
-          {dinner.map(item => (
-            <div key={item.id} className="menu-card">
-              <img src={item.image} alt={item.name} className="menu-img" />
-              <div className="menu-details">
-                <h3 className="menu-name">{item.name}</h3>
-                <p className="menu-price">{item.price}</p>
-                <p className="menu-description">{item.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-     
-
-      {/* Lunch */}
-      <div className="category-container">
-        <h3>Lunch</h3>
-        <Link to="/lunch">View All Lunch</Link> {/* Link to lunch page */}
-        <div className="menu-cards">
-          {lunch.map(item => (
-            <div key={item.id} className="menu-card">
-              <img src={item.image} alt={item.name} className="menu-img" />
-              <div className="menu-details">
-                <h3 className="menu-name">{item.name}</h3>
-                <p className="menu-price">{item.price}</p>
-                <p className="menu-description">{item.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Appetizer */}
-      <div className="category-container">
-        <h3>Appetizer</h3>
-        <Link to="/appetizer">View All Appetizer</Link> {/* Link to appetizer page */}
-        <div className="menu-cards">
-          {appetizer.map(item => (
-            <div key={item.id} className="menu-card">
-              <img src={item.image} alt={item.name} className="menu-img" />
-              <div className="menu-details">
-                <h3 className="menu-name">{item.name}</h3>
-                <p className="menu-price">{item.price}</p>
-                <p className="menu-description">{item.description}</p>
-              </div>
-            </div>
-          ))}
+          <img src={dinnerImageLink} alt="Dinner" className="menu-img" />
+          <p className="menu-description">
+            Explore our delectable dinner options, carefully curated for an unforgettable dining experience.
+          </p>
+          <div className="view-more-box">
+            <Link to="/dinner" className="view-more-button">View More</Link>
+          </div>
         </div>
       </div>
     </div>

@@ -1,41 +1,46 @@
 .menu-container {
-  margin: 20px;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .category-container {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
-h3 {
+.category-container h3 {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .menu-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
-.menu-card img {
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 .menu-details {
-  padding: 15px;
+  padding: 20px;
+  background-color: #fff;
 }
 
 .menu-name {
@@ -45,10 +50,26 @@ h3 {
 
 .menu-price {
   font-size: 18px;
-  color: #009688;
-  margin-bottom: 5px;
+  font-weight: bold;
+  color: #007bff;
 }
 
 .menu-description {
   font-size: 16px;
+  color: #666;
+}
+
+.view-more-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-button:hover {
+  background-color: #0056b3;
 }
