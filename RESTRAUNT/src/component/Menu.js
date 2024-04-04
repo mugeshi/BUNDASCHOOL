@@ -14,7 +14,6 @@ const MenuComponent = () => {
       {/* Snacks */}
       <div className="category-container">
         <h3>Snacks</h3>
-        <Link to="/snacks">View All Snacks</Link>
         <div className="menu-cards">
           <img src={snacksImageLink} alt="Snacks" className="menu-img" />
           <p className="menu-description">
@@ -29,7 +28,7 @@ const MenuComponent = () => {
       {/* Breakfast */}
       <div className="category-container">
         <h3>Breakfast</h3>
-        <Link to="/breakfast">View All Breakfast</Link>
+      
         <div className="menu-cards">
           <img src={breakfastImageLink} alt="Breakfast" className="menu-img" />
           <p className="menu-description">
@@ -44,7 +43,7 @@ const MenuComponent = () => {
       {/* Dinner */}
       <div className="category-container">
         <h3>Dinner</h3>
-        <Link to="/dinner">View All Dinner</Link>
+        
         <div className="menu-cards">
           <img src={dinnerImageLink} alt="Dinner" className="menu-img" />
           <p className="menu-description">
