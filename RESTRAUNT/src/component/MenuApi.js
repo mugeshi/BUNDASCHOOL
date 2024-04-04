@@ -112,7 +112,7 @@ const menuData= [
     id: 13,
     image: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?resize=768,574",
     name: "Italian food",
-    category: "desert",
+    category: "dinner",
     price: "150₹",
     description:
       "A diverse category of desserts found in various cultures, such as Indian sweets like gulab jamun, rasgulla, or Western options like chocolate cake and ice cream."

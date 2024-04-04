@@ -4,51 +4,41 @@ import './Menu.css';
 import menuData from './MenuApi'; 
 
 const MenuComponent = () => {
-  // Filter menu items by category
-  const snacks = menuData.filter(item => item.category === 'snacks');
-  const breakfast = menuData.filter(item => item.category === 'breakfast');
-  const dinner = menuData.filter(item => item.category === 'dinner');
-  const dessert = menuData.filter(item => item.category === 'dessert');
-  const lunch = menuData.filter(item => item.category === 'lunch');
-  const appetizer = menuData.filter(item => item.category === 'appetizer');
+  const breakfastImageLink = 'https://c.ndtvimg.com/2020-10/bc5nbv6o_breakfast_650x400_01_October_20.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350';
+   const snacksImageLink = 'https://i.pinimg.com/736x/33/08/18/330818b85e23e2281b2013cd2d22134e.jpg';
 
-  return (
+   return (
     <div className="menu-container">
       <h2>Menu</h2>
 
       {/* Snacks */}
       <div className="category-container">
         <h3>Snacks</h3>
-        <Link to="/snacks">View All Snacks</Link> {/* Link to snacks page */}
+        <Link to="/snacks">View All Snacks</Link>
         <div className="menu-cards">
-          {snacks.map(item => (
-            <div key={item.id} className="menu-card">
-              <img src={item.image} alt={item.name} className="menu-img" />
-              <div className="menu-details">
-                <h3 className="menu-name">{item.name}</h3>
-                <p className="menu-price">{item.price}</p>
-                <p className="menu-description">{item.description}</p>
-              </div>
-            </div>
-          ))}
+          <img src={snacksImageLink} alt="Snacks" className="menu-img" />
+          <p className="menu-description">
+            Indulge in our tantalizing array of snacks, meticulously crafted to satisfy every craving.
+          </p>
+          <div className="view-more-box">
+            <Link to="/snacks" className="view-more-button">View More</Link>
+          </div>
         </div>
       </div>
 
       {/* Breakfast */}
       <div className="category-container">
         <h3>Breakfast</h3>
-        <Link to="/breakfast">View All Breakfast</Link> {/* Link to breakfast page */}
+        <Link to="/breakfast">View All Breakfast</Link>
         <div className="menu-cards">
-          {breakfast.map(item => (
-            <div key={item.id} className="menu-card">
-              <img src={item.image} alt={item.name} className="menu-img" />
-              <div className="menu-details">
-                <h3 className="menu-name">{item.name}</h3>
-                <p className="menu-price">{item.price}</p>
-                <p className="menu-description">{item.description}</p>
-              </div>
-            </div>
-          ))}
+          {/* Replace the image link below */}
+          <img src={breakfastImageLink} alt="Breakfast" className="menu-img" />
+          <p className="menu-description">
+            Description for breakfast category.
+          </p>
+          <div className="view-more-box">
+            <Link to="/breakfast" className="view-more-button">View More</Link>
+          </div>
         </div>
       </div>
 
@@ -70,23 +60,7 @@ const MenuComponent = () => {
         </div>
       </div>
 
-      {/* Dessert */}
-      <div className="category-container">
-        <h3>Dessert</h3>
-        <Link to="/dessert">View All Dessert</Link> {/* Link to dessert page */}
-        <div className="menu-cards">
-          {dessert.map(item => (
-            <div key={item.id} className="menu-card">
-              <img src={item.image} alt={item.name} className="menu-img" />
-              <div className="menu-details">
-                <h3 className="menu-name">{item.name}</h3>
-                <p className="menu-price">{item.price}</p>
-                <p className="menu-description">{item.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+     
 
       {/* Lunch */}
       <div className="category-container">
