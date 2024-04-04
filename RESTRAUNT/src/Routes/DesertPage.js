@@ -1,5 +1,4 @@
-import './Menu.css';
-import menuData from './MenuApi';
+import menuData from '../component/MenuApi';
 
 const DessertPage = () => {
   const dessertItems = menuData.filter(item => item.category === 'dessert');

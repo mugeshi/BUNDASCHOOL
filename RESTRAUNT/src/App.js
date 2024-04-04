@@ -1,12 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './  Routes/Navbar';
-import HeroSlider from './Routes/Heroimage';
-import MenuComponent from './Routes/Menu';
-import SnacksPage from './Routes/SnacksPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Navbar from './component/Navbar';
+import HeroSlider from './component/Heroimage';
+import MenuComponent from './component/Menu';
+
+import SnacksPage from './Routes/SnackPage';
 import BreakfastPage from './Routes/BreakfastPage';
 import DinnerPage from './Routes/DinnerPage';
-import DessertPage from './Routes/DessertPage';
+import DessertPage from './Routes/DesertPage';
 import LunchPage from './Routes/LunchPage';
 import AppetizerPage from './Routes/AppetizerPage';
 
@@ -16,15 +18,15 @@ function App() {
       <div className="App">
         <Navbar />
         <HeroSlider />
-        <Switch>
-          <Route exact path="/" component={MenuComponent} />
-          <Route path="/snacks" component={SnacksPage} />
-          <Route path="/breakfast" component={BreakfastPage} />
-          <Route path="/dinner" component={DinnerPage} />
-          <Route path="/dessert" component={DessertPage} />
-          <Route path="/lunch" component={LunchPage} />
-          <Route path="/appetizer" component={AppetizerPage} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<MenuComponent />} />
+          <Route path="/snacks" element={<SnacksPage />} />
+          <Route path="/breakfast" element={<BreakfastPage />} />
+          <Route path="/dinner" element={<DinnerPage />} />
+          <Route path="/dessert" element={<DessertPage />} />
+          <Route path="/lunch" element={<LunchPage />} />
+          <Route path="/appetizer" element={<AppetizerPage />} />
+        </Routes>
       </div>
     </Router>
   );

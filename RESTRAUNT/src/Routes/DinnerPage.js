@@ -1,6 +1,6 @@
 import React from 'react';
-import './Menu.css';
-import menuData from './MenuApi';
+import '../component/Menu.css';
+import menuData from '../component/MenuApi';
 
 const DinnerPage = () => {
   const dinnerItems = menuData.filter(item => item.category === 'dinner');

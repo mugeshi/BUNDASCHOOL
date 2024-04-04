@@ -1,6 +1,5 @@
-import React from 'react';
-import './Menu.css';
-import menuData from './MenuApi';
+import '../component/Menu.css';
+import menuData from '../component/MenuApi';
 
 const AppetizerPage = () => {
   const appetizerItems = menuData.filter(item => item.category === 'appetizer');

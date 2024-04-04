@@ -1,5 +1,5 @@
-import React from 'react';
-import menuData from './MenuApi';
+import '../component/Menu.css';
+import menuData from '../component/MenuApi';
 
 const BreakfastPage = () => {
   // Filter menu items for breakfast category

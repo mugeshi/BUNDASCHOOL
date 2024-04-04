@@ -1,4 +1,4 @@
-import menuData from './MenuApi';
+import menuData from '../component/MenuApi';
 
 const SnacksPage = () => {
   // Filter menu items for snacks category
