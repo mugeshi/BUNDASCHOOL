@@ -179,6 +179,15 @@ const menuData= [
     price: "120₹",
     description:
       "Crispy and golden fries made from halloumi cheese, served with a side of sweet chili sauce or tzatziki. A delicious vegetarian appetizer or snack."
+  },
+   {
+    id: 20,
+    image: "https://www.deliciousmagazine.co.uk/wp-content/uploads/2020/02/halloumi-firies-1-768x960.jpg",
+    name: "Halloumi Fries",
+    category: "snacks",
+    price: "120₹",
+    description:
+      "Crispy and golden fries made from halloumi cheese, served with a side of sweet chili sauce or tzatziki. A delicious vegetarian appetizer or snack."
   }
 ];
 
